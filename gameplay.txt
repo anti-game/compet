@@ -1,0 +1,11 @@
+time challenge
+
+a one minute timer counts down. the player with the highest pet rating/score wins.
+
+* petting increases the score
+* different petting zones increment the score at different rates
+* petting zone values fluctuate throughout challenge. kitty will get tired of chin tickles and score will not go up.
+
+- visual indicator of kitty's zone preference/annoyance level
+- cursor changes depending on zone: pat-pat hand for head and back, coochi-coo for underparts, pokey finger for other.
+- also there is a DO NOT PET zone mode which will decrease score if touched
