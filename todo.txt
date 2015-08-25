@@ -11,7 +11,8 @@ Victor
 -------
 - come up with different kitty sprites
 ** make sure sprites are designed in such a way that masks for different parts of the kitties do not overlap **
-
+- unique kitty names
+- window mockups - need to display timer, purrcentage meter, cat area.
 
 unassigned
 -----------
