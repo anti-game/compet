@@ -1,11 +1,39 @@
 time challenge
 
-a one minute timer counts down. the player with the highest pet rating/score wins.
+summary
+--------
+a one minute timer counts down. every six (?) seconds, a new cat pops up on screen. each cat has different preferences for where it likes and does not like to be pet. the player must figure out which spots maximize each cat's happiness levels and pet the cat accordingly. at the end of each six-second cat-petting period, the cat's happiness level is saved and then reset for the next cat. at the end of the one minute, the game is over and the final score is the sum of all individual cat happiness levels. the player with the highest final score wins.
 
-* petting increases the score
-* different petting zones increment the score at different rates
-* petting zone values fluctuate throughout challenge. kitty will get tired of chin tickles and score will not go up.
 
-- visual indicator of kitty's zone preference/annoyance level
+game iterations
+----------------
+1: one player game
+2: add local leaderboard
+3: online leaderboard
+4: two players playing the same game at the same time
+
+
+visual
+-------
+- visual indicator of kitty's mood: use emoticon bubbles to show when kitty is getting annoyed, indicating that kitty is responding differently to pets in zones that it previously liked, etc. 
 - cursor changes depending on zone: pat-pat hand for head and back, coochi-coo for underparts, pokey finger for other.
-- also there is a DO NOT PET zone mode which will decrease score if touched
+- window for text output
+- two players: both players see the same thing (see both kitties / see other player's score)
+
+
+internal
+---------
+* petting increases and decreases the score. different petting zones increment and decrement the score by different amounts
+* The pet value timer will reset at fixed intervals even if there is no petting activity. when kitty gets annoyed, the pet value timer will be reset (and as a result the petting zone values will change) sooner. 
+
+- internal representation of kitty's mood: incrementing value
+- there is a DO NOT PET zone mode which will decrease score if touched
+
+
+
+
+
+
+
+
+

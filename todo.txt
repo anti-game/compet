@@ -1,3 +1,18 @@
 COMPET
 
-1. hi
+Lisa
+-----
+- research different internet connectivity options for gameplay
+- research masks for clicking on sprites
+- type up game idea list and add to anti-game dropbox (accept invitation)
+
+
+Victor
+-------
+- come up with different kitty sprites
+** make sure sprites are designed in such a way that masks for different parts of the kitties do not overlap **
+
+
+unassigned
+-----------
+- ask jorge about masks and animation
