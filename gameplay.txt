@@ -19,6 +19,7 @@ visual
 - cursor changes depending on zone: pat-pat hand for head and back, coochi-coo for underparts, pokey finger for other.
 - window for text output
 - two players: both players see the same thing (see both kitties / see other player's score)
+- screen will have a timer at the top (not number of upcoming cats)
 
 
 internal
